@@ -1,3 +1,5 @@
+from day3 import *
+
 def day2() -> None:
     reports = []
     safe_reports = []
@@ -36,4 +38,5 @@ def is_report_safe(data) -> bool:
 
 
 if __name__ == '__main__':
-    day2()
+    # day2()
+    day3()
