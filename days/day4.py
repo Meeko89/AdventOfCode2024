@@ -42,7 +42,7 @@ def count_cross_mas(word_search) -> int:
     return nb_cross_mas
 
 
-def main() -> None:
+def day4() -> None:
     print("Day 4")
 
     inputfile = "input/day4.txt"

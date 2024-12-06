@@ -1,8 +1,10 @@
 import argparse
 
-import days
+from days import *
 from day3 import *
 from days import *
+from days import day6
+
 
 def day2() -> None:
     reports = []
@@ -43,10 +45,15 @@ def is_report_safe(data) -> bool:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', "--day", type=int, default=4, action='store')
+    parser.add_argument('-d', "--day", type=int, default=6, action='store')
     args = parser.parse_args()
 
     if args.day == 4:
-        days.day4.main()
+        day4.day4()
+    elif args.day == 5:
+        day5.day5()
+    elif args.day == 6:
+        day6.day6()
+
 
 
